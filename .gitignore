@@ -1,0 +1,50 @@
+## [ Visual Studio ]
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.docstates
+
+## [ .NET ]
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## [ Testing ]
+TestResults/
+*.sequenced.json
+
+## [ User-specific files ]
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opendb
+*.dbmdl
+
+## [ IDE - Rider / JetBrains ]
+.idea/
+*.sln.iml
+
+## [ IDE - VS Code ]
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## [ OS specific ]
+.DS_Store
+Thumbs.db
+
+## [ Packages ]
+*.nupkg
+# Se recomienda no subir la carpeta packages si usas NuGet (se restauran solos)
+**/packages/*
+!**/packages/build/
+
+## [ Environment Variables ]
+.env
+.env.*
+appsettings.Development.json

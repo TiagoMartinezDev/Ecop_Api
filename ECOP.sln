@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECOP.Models", "ECOP.Models\ECOP.Models.csproj", "{7A256CC7-502F-47B1-8236-B781404A6E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECOP.AccesoDatos", "ECOP.AccesoDatos\ECOP.AccesoDatos.csproj", "{F9AC52DA-C9FD-4484-AE5E-809A056AAB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECOP.API", "ECOP.API\ECOP.API.csproj", "{9BAE68C5-E8F8-48ED-B239-CF0334A6B1BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A256CC7-502F-47B1-8236-B781404A6E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A256CC7-502F-47B1-8236-B781404A6E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A256CC7-502F-47B1-8236-B781404A6E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A256CC7-502F-47B1-8236-B781404A6E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AC52DA-C9FD-4484-AE5E-809A056AAB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AC52DA-C9FD-4484-AE5E-809A056AAB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AC52DA-C9FD-4484-AE5E-809A056AAB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AC52DA-C9FD-4484-AE5E-809A056AAB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAE68C5-E8F8-48ED-B239-CF0334A6B1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAE68C5-E8F8-48ED-B239-CF0334A6B1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAE68C5-E8F8-48ED-B239-CF0334A6B1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAE68C5-E8F8-48ED-B239-CF0334A6B1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
