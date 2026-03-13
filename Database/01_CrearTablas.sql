@@ -1,5 +1,7 @@
-USE ECOP_PedidosMercaderias;
+
+USE master;
 GO
+
 
 BEGIN
     CREATE TABLE TiposDocumento (
@@ -122,7 +124,6 @@ BEGIN
         ProductoId     INT           NOT NULL,
         Cantidad       INT           NOT NULL,
         PrecioUnitario DECIMAL(18,2) NOT NULL,
-        -- Subtotal es calculado en C# (Cantidad * PrecioUnitario), no existe como columna
         CONSTRAINT PK_DetallePedidos PRIMARY KEY (Id),
         CONSTRAINT FK_DetallePedidos_Pedidos FOREIGN KEY (PedidoId)
             REFERENCES Pedidos (Id) ON DELETE CASCADE,
@@ -134,5 +135,16 @@ BEGIN
         ON DetallePedidos (PedidoId, ProductoId);
 
     PRINT 'Tabla DetallePedidos creada.';
+END
+GO
+
+BEGIN
+    CREATE TABLE __EFMigrationsHistory (
+        MigrationId    NVARCHAR(150) NOT NULL,
+        ProductVersion NVARCHAR(32)  NOT NULL,
+        CONSTRAINT PK___EFMigrationsHistory PRIMARY KEY (MigrationId)
+    );
+
+    PRINT 'Tabla __EFMigrationsHistory creada.';
 END
 GO
